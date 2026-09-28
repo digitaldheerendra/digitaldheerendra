@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="Core stack: Laravel, React, React Native and WordPress, with an AI layer of chatbots, automation and LLM integration across all of them">
+  <defs>
+    <linearGradient id="ai" x1="0" x2="1">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset=".35" stop-color="#58a6ff"/>
+      <stop offset=".7" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#f0883e"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .h { fill: #e6edf3; font-size: 19px; font-weight: 700; }
+    .k { fill: #8b949e; font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+    .l { fill: #adbac7; font-size: 13px; }
+    .ai { fill: #f0883e; }
+    .fade { opacity: 0; animation: in .6s ease-out forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; } .d4 { animation-delay: .55s; } .d5 { animation-delay: .8s; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <!-- Laravel -->
+  <g class="fade d1">
+    <rect class="card" x="1" y="1" width="205" height="200" rx="14"/>
+    <rect x="1" y="1" width="205" height="4" rx="2" fill="#ff2d20"/>
+    <text x="20" y="34" class="k">BACKEND</text>
+    <text x="20" y="60" class="h">Laravel</text>
+    <text x="20" y="92" class="l">REST APIs &amp; admin panels</text>
+    <text x="20" y="116" class="l">Queues, jobs &amp; webhooks</text>
+    <text x="20" y="140" class="l">Payments &amp; wallet billing</text>
+    <text x="20" y="164" class="l ai">✦ LLM APIs &amp; RAG backends</text>
+  </g>
+
+  <!-- React -->
+  <g class="fade d2">
+    <rect class="card" x="218" y="1" width="205" height="200" rx="14"/>
+    <rect x="218" y="1" width="205" height="4" rx="2" fill="#61dafb"/>
+    <text x="237" y="34" class="k">WEB</text>
+    <text x="237" y="60" class="h">React</text>
+    <text x="237" y="92" class="l">Dashboards &amp; web apps</text>
+    <text x="237" y="116" class="l">SSR / prerendered sites</text>
+    <text x="237" y="140" class="l">Core Web Vitals tuning</text>
+    <text x="237" y="164" class="l ai">✦ Streaming AI chat UIs</text>
+  </g>
+
+  <!-- React Native -->
+  <g class="fade d3">
+    <rect class="card" x="435" y="1" width="205" height="200" rx="14"/>
+    <rect x="435" y="1" width="205" height="4" rx="2" fill="#bc8cff"/>
+    <text x="454" y="34" class="k">MOBILE</text>
+    <text x="454" y="60" class="h">React Native</text>
+    <text x="454" y="92" class="l">Android + iOS apps</text>
+    <text x="454" y="116" class="l">Agora voice &amp; video calls</text>
+    <text x="454" y="140" class="l">FCM push &amp; call screens</text>
+    <text x="454" y="164" class="l ai">✦ In-app AI assistants</text>
+  </g>
+
+  <!-- WordPress -->
+  <g class="fade d4">
+    <rect class="card" x="652" y="1" width="207" height="200" rx="14"/>
+    <rect x="652" y="1" width="207" height="4" rx="2" fill="#3858e9"/>
+    <text x="671" y="34" class="k">CMS &amp; COMMERCE</text>
+    <text x="671" y="60" class="h">WordPress</text>
+    <text x="671" y="92" class="l">Custom themes &amp; plugins</text>
+    <text x="671" y="116" class="l">WooCommerce stores</text>
+    <text x="671" y="140" class="l">Speed &amp; SEO fixes</text>
+    <text x="671" y="164" class="l ai">✦ AI chat &amp; content plugins</text>
+  </g>
+
+  <!-- AI layer -->
+  <g class="fade d5">
+    <rect x="1" y="216" width="858" height="82" rx="14" fill="#0d1117" stroke="url(#ai)" stroke-width="2"/>
+    <text x="24" y="246" class="k" fill="#f0883e" style="fill:#f0883e">✦ AI LAYER · ACROSS EVERY STACK ABOVE</text>
+    <text x="24" y="276" style="fill:#e6edf3;font-size:16px;font-weight:600">Chatbots  ·  AI automation  ·  LLM integration (OpenAI, Claude, Gemini)  ·  RAG on your own data</text>
+  </g>
+</svg>
