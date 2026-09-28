@@ -93,8 +93,7 @@ Most of the hard work is in the edge cases: dropped networks mid-call, wallet ba
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=digitaldheerendra&theme=github-dark-blue&hide_border=true&border_radius=12" alt="GitHub streak" width="49%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=digitaldheerendra&theme=github-compact&hide_border=true&radius=12&area=true" alt="Contribution graph" width="49%"/>
+<img src="https://streak-stats.demolab.com?user=digitaldheerendra&theme=github-dark-blue&hide_border=true&border_radius=12" alt="GitHub streak" width="70%"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/digitaldheerendra/digitaldheerendra/output/snake-dark.svg"/>
