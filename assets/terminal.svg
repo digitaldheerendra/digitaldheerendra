@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="392" viewBox="0 0 860 392" role="img" aria-label="Dheerendra Kumar, Full-Stack Engineer: Laravel, React, React Native and real-time systems">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset=".5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="56" y="70" height="30" width="0"><animate attributeName="width" from="0" to="90" begin="0.4s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="56" y="148" height="30" width="0"><animate attributeName="width" from="0" to="150" begin="1.8s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="56" y="226" height="30" width="0"><animate attributeName="width" from="0" to="140" begin="3.3s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="56" y="304" height="30" width="0"><animate attributeName="width" from="0" to="160" begin="4.7s" dur="0.7s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", Menlo, monospace; font-size: 16px; }
+    .p { fill: #3fb950; font-weight: 700; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #8b949e; }
+    .hi { fill: #e6edf3; font-weight: 700; }
+    .blue { fill: #58a6ff; }
+    .gold { fill: #f0883e; }
+    .t { fill: #8b949e; font-size: 13px; }
+  </style>
+
+  <rect x="1" y="1" width="858" height="390" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="858" height="40" rx="14" fill="#161b22"/>
+  <rect x="1" y="28" width="858" height="13" fill="#161b22"/>
+  <rect x="1" y="40" width="858" height="2" fill="url(#accent)"/>
+  <circle cx="26" cy="21" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="21" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="21" r="6.5" fill="#28c840"/>
+  <text x="430" y="26" text-anchor="middle" class="t">dheerendra@noida: ~</text>
+
+  <!-- whoami -->
+  <text x="32" y="90" class="p">❯</text>
+  <text x="56" y="90" class="cmd" clip-path="url(#c1)">whoami</text>
+  <text x="32" y="118" opacity="0"><tspan class="hi">Dheerendra Kumar</tspan><tspan class="out"> · Full-Stack Engineer · 9+ years shipping to production</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- stack -->
+  <text x="32" y="168" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.1s" fill="freeze"/></text>
+  <text x="56" y="168" class="cmd" clip-path="url(#c2)">cat stack.txt</text>
+  <text x="32" y="196" opacity="0" class="out"><tspan class="blue">Laravel</tspan> · <tspan class="blue">PHP</tspan> · <tspan class="blue">React</tspan> · <tspan class="blue">React Native</tspan> · <tspan class="blue">TypeScript</tspan> · <tspan class="blue">Node.js</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- focus -->
+  <text x="32" y="246" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.1s" fill="freeze"/></text>
+  <text x="56" y="246" class="cmd" clip-path="url(#c3)">cat focus.txt</text>
+  <text x="32" y="274" opacity="0" class="out">real-time chat &amp; video calls · wallet billing · push at scale · fast web
+    <animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- status -->
+  <text x="32" y="324" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze"/></text>
+  <text x="56" y="324" class="cmd" clip-path="url(#c4)">./status --now</text>
+  <text x="32" y="352" opacity="0"><tspan fill="#3fb950">●</tspan><tspan class="out"> building real-time products · </tspan><tspan class="gold">open to freelance &amp; contract work</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- cursor -->
+  <rect x="32" y="364" width="10" height="18" fill="#3fb950" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.01;.5;.51" dur="1s" begin="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
